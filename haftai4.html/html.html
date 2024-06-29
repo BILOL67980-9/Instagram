@@ -1,0 +1,825 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+        }
+        .img1{
+            width: 94px;
+height: 35px;
+position: relative;
+top: 25px;
+left: 111px;
+gap: 0px;
+opacity: 0px;
+
+
+        }
+        .p{
+            display: flex;
+            width: 772px;
+height: 24px;
+position: absolute;
+top: 34px;
+left: 417px;
+gap: 0px;
+opacity: 0px;
+font-family: Poppins;
+font-size: 22px;
+font-weight: 500;
+line-height: 24px;
+text-align: left;
+
+
+
+        }
+        p{
+            margin-left: 40px;
+        }
+        .shag1{
+            display: flex;
+           
+           padding-bottom: 70px;
+        }
+        .b1{
+            width: 220px;
+height: 50px;
+margin-top: -15px;
+position: absolute;
+top: 1px;
+left: 821px;
+gap: 0px;
+border-radius: 5px;
+border: 2px 0px 0px 0px;
+opacity: 0px;
+background-color: white;
+        }
+        .h1{
+            width: 290px;
+height: 192px;
+position: absolute;
+top: 256px;
+left: 119px;
+gap: 0px;
+opacity: 0px;
+font-family: Poppins;
+font-size: 48px;
+font-weight: 600;
+line-height: 64px;
+text-align: left;
+
+
+        }
+        .h2{
+            color: gray;
+            width: 632px;
+height: 90px;
+position: absolute;
+top: 485px;
+left: 113px;
+gap: 0px;
+opacity: 0px;
+font-family: Poppins;
+font-size: 20px;
+font-weight: 400;
+line-height: 30px;
+text-align: left;
+
+        }
+        .img2{
+            width: 85.24px;
+height: 85.24px;
+position: absolute;
+top: 331px;
+left: 405.99px;
+padding: 0px 7.42px 0px 7.42px;
+gap: 0px;
+opacity: 0px;
+
+
+        }
+        .img3{
+            width: 661px;
+height: 661px;
+position: absolute;
+top: 176px;
+left: 816px;
+gap: 0px;
+opacity: 0px;
+
+        }
+        .h3{
+            height: 80px;
+            width: 124px;
+            text-align: center;
+            position: absolute;
+            font-family: sans-serif;
+            top: 940px;
+left: 738px;
+gap: 0px;
+opacity: 0px;
+
+        }
+        .shag2{
+            display: grid;
+            
+        }
+        .b2{
+            width: 300px;
+height: 71px;
+position: absolute;
+top: 625px;
+left: 109px;
+font-size: 16px;
+gap: 0px;
+color: white;
+background-color:rgba(38, 50, 56, 1) ;
+border-radius: 10px;
+opacity: 0px;
+
+        }
+        .w1{
+            width: 435px;
+height: 894px;
+position: absolute;
+top: 1116px;
+left: 127px;
+gap: 0px;
+border-radius: 10px ;
+opacity: 0px;
+background-color: rgba(245, 245, 245, 1);
+;
+        }
+        .w2{width: 434px;
+height: 531px;
+position: absolute;
+top: 1116px;
+left: 580px;
+gap: 0px;
+border-radius: 10px ;
+opacity: 0px;
+background-color: rgba(245, 245, 245, 1);
+        }
+        .w3{
+            width: 435px;
+height: 532px;
+position: absolute;
+top: 1115px;
+left: 1032px;
+gap: 0px;
+border-radius: 10px ;
+opacity: 0px;
+background-color: rgba(245, 245, 245, 1);
+        }
+        .w4{
+            width: 885px;
+height: 343px;
+position: absolute;
+top: 1667px;
+left: 580px;
+gap: 0px;
+border-radius: 10px;
+opacity: 0px;
+background-color: rgba(245, 245, 245, 1);
+        }
+        .h4{
+            margin: 20px 40px;
+
+        }
+        .h7{
+            width: 219px;
+height: 80px;
+position: absolute;
+top: 2292px;
+left: 131px;
+gap: 0px;
+opacity: 0px;
+font-family: sans-serif;
+
+        }
+        .h5{
+            margin: 0px 40px;
+            margin-top: -20px;
+            margin-bottom: 20px;
+
+        }
+        .h6{
+            margin: 0px 40px;
+            margin-top: -210px;
+            margin-bottom: 20px;
+
+        }
+        .img4{
+            margin-left: 500px;
+        }
+        .img5{
+            margin-left: 150px;
+        }
+        .h9{
+            width: 347px;
+height: 192px;
+margin: 0px 40px ;
+margin-top: 20px;
+gap: 0px;
+opacity: 0px;
+font-family: Poppins;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+text-align: left;
+color: gray;
+        }
+        .h10{
+            width: 347px;
+height: 192px;
+margin: 0px 40px ;
+margin-top: -90px;
+gap: 0px;
+opacity: 0px;
+font-family: Poppins;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+text-align: left;
+color: gray;
+        }
+        .b3{
+            width: 230px;
+height: 60px;
+margin-left: 40px;
+margin-top: -90px;
+gap: 0px;
+border-radius: 5px ;
+opacity: 0px;
+color: white;
+background: rgba(38, 50, 56, 1);
+
+        }
+        .b4{
+            width: 218px;
+height: 50px;
+position: absolute;
+top: 423px;
+left: 40px;
+gap: 0px;
+border-radius: 5px;
+opacity: 0px;
+color: white;
+background: rgba(38, 50, 56, 1);
+        }
+        .b5{
+            width: 218px;
+height: 50px;
+position: absolute;
+top: 423px;
+left: 40px;
+gap: 0px;
+border-radius: 5px;
+opacity: 0px;
+color: white;
+background: rgba(38, 50, 56, 1);
+        }
+        .b6{
+            width: 230px;
+height: 60px;
+position: absolute;
+top: 223px;
+left: 40px;
+gap: 0px;
+border-radius: 5px;
+opacity: 0px;
+color: white;
+background: rgba(38, 50, 56, 1);
+        }
+        .h12{
+            width: 635px;
+height: 240px;
+position: absolute;
+top: 2395px;
+left: 131px;
+gap: 0px;
+opacity: 0px;
+font-family: Poppins;
+font-size: 20px;
+font-weight: 400;
+line-height: 30px;
+text-align: left;
+color: rgba(143, 149, 165, 1);
+font-family:sans-serif;
+
+        }
+        .nj{
+            width: 93px;
+height: 80px;
+position: absolute;
+top: 2614px;
+left: 131px;
+gap: 0px;
+opacity: 0px;
+font-family: Poppins;
+font-size: 48px;
+font-weight: 600;
+line-height: 80px;
+text-align: left;
+
+        }
+        .nj1{
+            width: 635px;
+height: 30px;
+position: absolute;
+top: 2692px;
+left: 148px;
+gap: 0px;
+opacity: 0px;
+font-family: Poppins;
+font-size: 20px;
+font-weight: 400;
+line-height: 30px;
+text-align: left;
+color:rgba(143, 149, 165, 1);
+
+        }
+        .n2{
+            width: 49px;
+height: 80px;
+position: absolute;
+top: 2614px;
+left: 337px;
+gap: 0px;
+opacity: 0px;
+font-family: Poppins;
+font-size: 48px;
+font-weight: 600;
+line-height: 80px;
+text-align: left;
+
+        }
+        .n3{
+            width: 31px;
+height: 80px;
+position: absolute;
+top: 2614px;
+left: 524px;
+gap: 0px;
+opacity: 0px;
+font-family: Poppins;
+font-size: 48px;
+font-weight: 600;
+line-height: 80px;
+text-align: left;
+
+        }
+        .n21{
+            width: 635px;
+height: 30px;
+position: absolute;
+top: 2693px;
+left: 328px;
+gap: 0px;
+opacity: 0px;
+font-family: Poppins;
+font-size: 20px;
+font-weight: 400;
+line-height: 30px;
+text-align: left;
+color: rgba(143, 149, 165, 1);
+        }
+        .n31{
+            width: 635px;
+height: 30px;
+position: absolute;
+top: 2693px;
+left: 468px;
+gap: 0px;
+opacity: 0px;
+font-family: Poppins;
+font-size: 20px;
+font-weight: 400;
+line-height: 30px;
+text-align: left;
+color: rgba(143, 149, 165, 1);
+        }
+        .img6{
+            width: 500px;
+height: 500px;
+position: absolute;
+top: 2262px;
+left: 960px;
+gap: 0px;
+opacity: 0px;
+
+        }
+        .h8{
+            width: 169px;
+height: 80px;
+position: absolute;
+top: 2950px;
+left: 716px;
+gap: 0px;
+opacity: 0px;
+font-family: sans-serif;
+font-size: 48px;
+font-weight: 600;
+line-height: 80px;
+text-align: left;
+
+        }
+        .img7{
+            width: 311px;
+height: 311px;
+position: absolute;
+top: 3087px;
+left: 155px;
+gap: 0px;
+opacity: 0px;
+
+        }
+        .img8{
+            width: 391px;
+height: 283px;
+position: absolute;
+top: 3113px;
+left: 604px;
+gap: 0px;
+opacity: 0px;
+    
+        }
+        .img9{
+            width: 340px;
+height: 340px;
+position: absolute;
+top: 3087px;
+left: 1084px;
+gap: 0px;
+opacity: 0px;
+
+        }
+
+        .h14{
+            width: 372px;
+height: 48px;
+position: absolute;
+top: 3438px;
+left: 130px;
+gap: 0px;
+opacity: 0px;
+font-family: sans-serif;
+font-size: 30px;
+font-weight: 600;
+line-height: 48px;
+text-align: left;
+
+        }
+        .h15{
+            width: 282px;
+height: 48px;
+position: absolute;
+top: 3438px;
+left: 607px;
+gap: 0px;
+opacity: 0px;
+font-family: sans-serif;
+font-size: 30px;
+font-weight: 600;
+line-height: 48px;
+text-align: left;
+
+        }
+        .h16{
+            width: 245px;
+height: 48px;
+position: absolute;
+top: 3438px;
+left: 1034px;
+gap: 0px;
+opacity: 0px;
+font-family: sans-serif;
+font-size: 30px;
+font-weight: 600;
+line-height: 48px;
+text-align: left;
+
+        }
+        .ty1{
+            width: 635px;
+height: 90px;
+position: absolute;
+top: 3505px;
+left: 130px;
+gap: 0px;
+opacity: 0px;
+font-family: Poppins;
+font-size: 20px;
+font-weight: 400;
+line-height: 30px;
+text-align: left;
+color:rgba(143, 149, 165, 1);
+
+        }
+        .ty2{width: 635px;
+height: 60px;
+position: absolute;
+top: 3509px;
+left: 607px;
+gap: 0px;
+opacity: 0px;
+font-family: Poppins;
+font-size: 20px;
+font-weight: 400;
+line-height: 30px;
+text-align: left;
+color:rgba(143, 149, 165, 1);
+}
+        .ty3{
+            width: 635px;
+height: 60px;
+position: absolute;
+top: 3506px;
+left: 1034px;
+gap: 0px;
+opacity: 0px;
+font-family: Poppins;
+font-size: 20px;
+font-weight: 400;
+line-height: 30px;
+text-align: left;
+color:rgba(143, 149, 165, 1);
+}
+.q1{
+    width: 240px;
+height: 45px;
+position: absolute;
+top: 3624px;
+left: 130px;
+gap: 0px;
+border-radius: 5px 0px 0px 0px;
+opacity: 0px;
+background-color: rgba(238, 238, 238, 1);
+text-align: center;
+
+}
+.lik{
+    width: 90px;
+height: 45px;
+
+gap: 0px;
+opacity: 0px;
+font-family: Poppins;
+font-size: 30px;
+font-weight: 400;
+line-height: 45px;
+text-align: left;
+
+}
+.q2{
+    width: 240px;
+height: 45px;
+position: absolute;
+top: 3625px;
+left: 609px;
+gap: 0px;
+border-radius: 5px 0px 0px 0px;
+opacity: 0px;
+background-color: rgba(238, 238, 238, 1);
+text-align: center;
+color: black;
+}
+.kil{
+    width: 102px;
+height: 45px;
+gap: 0px;
+opacity: 0px;
+font-family: Poppins;
+font-size: 30px;
+font-weight: 400;
+line-height: 45px;
+text-align: center;
+color: black;
+
+}
+.q3{
+    width: 240px;
+height: 45px;
+position: absolute;
+top: 3625px;
+left: 1034px;
+gap: 0px;
+background-color: rgba(238, 238, 238, 1);
+border-radius: 5px 0px 0px 0px;
+opacity: 0px;
+text-align: center;
+color: black;
+}
+.lop{
+    width: 114px;
+height: 45px;
+font-family: Poppins;
+font-size: 30px;
+font-weight: 400;
+line-height: 45px;
+text-align: left;
+gap: 0px;
+opacity: 0px;
+
+}
+.img999{
+    width: 477px;
+height: 429px;
+position: absolute;
+top: 3930px;
+left: 112px;
+gap: 0px;
+opacity: 0px;
+
+}
+.h999{
+    width: 269px;
+height: 80px;
+position: absolute;
+top: 3963px;
+left: 700px;
+gap: 0px;
+opacity: 0px;
+font-family: Poppins;
+font-size: 48px;
+font-weight: 600;
+line-height: 80px;
+text-align: left;
+}
+.h666{
+    width: 776px;
+height: 60px;
+position: absolute;
+top: 4080px;
+left: 700px;
+gap: 0px;
+opacity: 0px;
+font-family: Poppins;
+font-size: 20px;
+font-weight: 400;
+line-height: 30px;
+text-align: left;
+color:  gray;
+
+}
+input{
+    width: 400px;
+height: 80px;
+padding-left: 40px;
+position: absolute;
+top: 4192px;
+left: 701px;
+gap: 0px;
+border-radius: 10px;
+border: 1px solid gray;
+opacity: 0px;
+
+}
+.b999{
+    width: 264px;
+height: 80px;
+position: absolute;
+top: 4190px;
+left: 1163px;
+gap: 0px;
+border-radius: 10px;
+background-color:rgba(38, 50, 56, 1);
+color: white;
+opacity: 0px;
+
+}
+.tpl{
+    width: 1338px;
+height: 1px;
+position: absolute;
+top: 4492px;
+left: 131px;
+gap: 0px;
+opacity: 0px;
+
+}
+.tpl1{
+    width: 106px;
+height: 34px;
+position: absolute;
+top: 4558px;
+left: 131px;
+gap: 0px;
+opacity: 0px;
+
+}
+.tpl2{
+    width: 776px;
+height: 36px;
+position: absolute;
+top: 4558px;
+left: 700px;
+gap: 0px;
+opacity: 0px;
+color: gray;
+}
+.tell{
+    display: none;
+}
+
+@media(max-width:440px)
+{
+   .tell{
+    display: block;
+    
+   }
+   .comp{
+   display: block;
+
+   
+   }
+   .img1{
+    position: absolute;
+    top: 30px;
+   }
+   body{
+    width: 100%;
+    padding: 200px 200px;
+   }
+}
+    </style>
+</head>
+<body>
+    <div class="comp">
+    <div class="shag1">
+    <img src="/Britlex.png" alt="" class="img1">
+    <div class="p">
+        <p>Home</p>
+        <p>Skils</p>
+        <p>About US</p>
+        <p>Pricing</p>
+        <p>Controls</p>
+        <button class="b1">Let's Talk</button>
+    </div>
+    <h1 class="h1">Learn<br>Any Foreign<br>Language</h1>
+    <h1 class="h2">With our teachers who write a program<br> 
+        for each student, you will be able to make<br> 
+        your first sketch after the first lesson.</h1>
+        <button class="b2">Get Started</button>
+        <img src="/light-bulb-svgrepo-com 1.png" alt="" class="img2">
+        <img src="/Learning languages-bro 1.png" alt="" class="img3">
+        <h1 class="h3">Skills</h1>
+        <div class="shag2">
+            <div class="w1"><img src="/Shared goals-bro 1.png" alt=""><h1 class="h4">Speaking</h1><h6 class="h9">Improve your English skills and confidence.<br>Live classes and interactive lessons online.<br>20% extra free for a limited time only </h6><h6 class="h10"> Learn English online and improve your<br>skills through our high-quality courses<br>and resources – all designed for adult language learners.</h6><button class="b3">Learn more</button></div>
+            <div class="w2"><img src="/Typewriter-bro 1.png" class="img5" alt=""><h1 class="h5">Writing</h1><h6 class="h9">One of the most important and extensive<br>areas of natural science, the science that<br>studies substances, also their composition </h6><button class="b4">Learn more</button></div>
+            <div class="w3"><img src="/House bookshelves-bro 1.png" alt=""><h1 class="h4">Reading</h1><h6 class="h9">perception and response actions of the user<br>resulting from the use and/or upcoming use <br>of the product, system or service</h6><button class="b5">Learn more</button></div>
+            <div class="w4"><img src="/Podcast audience-bro 1.png" class="img4" alt=""><h1 class="h6">Reading</h1><h6 class="h9">perception and response actions of the user<br>resulting from the use and/or upcoming use <br>of the product, system or service</h6><button class="b6">Learn more</button></div></div>
+        </div>
+        <div class="shag3">
+            <div class="text">
+        <h1 class="h7">About Us</h1>
+        <h6 class="h12">The model offers a framework for discussing problems related<br> to the user's experience, as well as possible ways and means of<br> solving them. Application development begins at the top level<br> (strategy), where the future software product is described quite<br> abstractly from the point of view of the expectations of both <br>users and the customer.
+        </h6>
+        <h2 class="nj">800</h2>
+        <h2 class="n2">18</h2>
+        <h2 class="n3">6</h2>
+        <h6 class="nj1">Pupils</h6>
+        <h6 class="n21">Teachers</h6>
+        <h6 class="n31">Foreign languages</h6>
+    </div>
+    <img src="/Business competition-bro 1.png" alt="" class="img6">
+    </div>
+    <h1 class="h8">Pricing</h1>
+     <img src="/Online test-bro 1.png" alt="" class="img7">
+     <img src="/Lesson-bro 1.png" alt="" class="img8">
+     <img src="/Webinar-bro 2.png" alt="" class="img9">
+     <h1 class="h14">Self-study online course</h1>
+     <h1 class="h15">Live online classes</h1>
+     <h1 class="h16">Personal Tuition</h1>
+     <h6 class="ty1">Start learning English online in live classes<br>
+        with qualified EC teachers and students <br>
+        from all over the world.</h6>
+     <h6 class="ty2">Interactive group classes with expert<br>
+        teachers. Free 7-day trial</h6>
+     <h6 class="ty3">Online one-to-one English tutoring – enjoy<br>
+        our first session for only $1</h6>
+        <div class="q1"><span class="lik">$5.99</span>per month</div>
+        <div class="q2"><span class="kil">$12.99</span>per month</div>
+        <div class="q3"><span class="lop">$20.99</span>per month</div>
+        <div class="bosledniyshag">
+            <img src="/Ресурс 1 1.png" alt="" class="img999">
+            <div>
+            <h1 class="h999">Contact Us</h1>
+            <h6 class="h666">Discover your current English level by taking our free online English test.Sign<br> up to our newsletter for learning tips and free resources</h6>
+            <input type="email" placeholder="Enter Your E-mail">
+            <button class="b999">Subscribe</button>
+        </div>
+        </div>
+        <img src="/Rectangle 26.png" alt="" class="tpl">
+        <img src="/Britlex.png" alt="" class="tpl1">
+        <h1 class="tpl2">Terms and Conditions • Privacy Policy • Cookie Policy</h1>
+    </div>
+    <div class="tell">
+
+    </div>
+</body>
+</html>
